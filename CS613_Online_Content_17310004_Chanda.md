@@ -20,7 +20,7 @@ expressions in the language and also relate them to whatever there is in there i
 
 2) __Distributional Semantics__ : The study of statistical patterns of human word usage to extract semantics. i.e Can I study the statistical patterns of human word usage to extract semantics. Can I see how humans are using different words in the their language to find out what is their semantics and this is what we will explain. What is the type of distributional semantics, how they capture that and how can i use that for certain meaningful applications. We will cover distributional distributional semantics here. This field of distributional semantics is mainly built upon this hypothesis of distributional hypothesis. Few Famous quotes of distributional hypothesis:
 
-![semantics.PNG](attachment:semantics.PNG)
+![semantics.PNG](semantics.PNG)
 
 ###  <font color='brown'>2.1) Distributional hypothesis :Basic Intuition
 
