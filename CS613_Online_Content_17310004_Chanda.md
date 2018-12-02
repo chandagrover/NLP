@@ -40,7 +40,7 @@ d) _"If linguistic is to deal with meaning, it can only do so through distributi
 
 e) _"If we consider words or morphemes A and B to be more different in meaning than A and C, then we will often find that the distributions of A and B are more different than the distributions of A and C. In other words, difference in meaning correlates with the difference of distribution."_ (Zelling Harris)
 
-![p1.PNG](attachment:p1.PNG)
+![p1.PNG](p1.PNG)
 
 We will use  Zelling Harris perspectives to represent the distribution patterns of words and use that to find out similarity across words. The semantics that we will capture will be __diffferential not referential__. We cannot represent what is the meaning of car with this sort of representation. Rather, we are capturing how similar or different two meanings are. Therefore, this is the differential sort of understanding of semantics and not the referential in distributional semantics.
 
@@ -70,7 +70,7 @@ The semantic content is represented by a vector. Vectors are obtained through th
 
 Distributions are vectors denoting the words in a multidimensional semantic space, i.e. objects with a magnitude and a direction. The semantic space has dimensions which correspond to possible contexts, as gathered from a given corpus. We will represent every word in this semantics space. This is the distribution semantics. 
 
-![vector%20space.PNG](attachment:vector%20space.PNG)
+![vector%20space.PNG](vector%20space.PNG)
 
 Here dimensions are context words i.e. eat and drive. We are representing cat, dog and car in the semantic space of eat and drive. Projection of a word on particular dimension denote how often a word occur in that particular dimension. We can clearly see that cat and dog occur more in eat dimension as compared to drive dimension whereas car appears in more contexts of drive than eat. Hence we can say cat and dog are much similar than cat and car. 
 
@@ -85,9 +85,9 @@ We can represent a word in as many dimensions we want to represent. e.g cat = [.
 4. Build vectors out of a (a function of) these co-occurence count.
 
 
-![dataset.PNG](attachment:dataset.PNG)
+![dataset.PNG](dataset.PNG)
 
-![vectors.PNG](attachment:vectors.PNG)
+![vectors.PNG](vectors.PNG)
 
 Here we have 4 words as target words, 7 words as context words and matrix as (4*7) dimension. Each element in this matrix denote how often this target word occured with this context word within my context window. 
 
@@ -95,11 +95,11 @@ Let us take only two dimension of semantic space, say, goal and transport.Also l
 
 
 
-![2dim.PNG](attachment:2dim.PNG)
+![2dim.PNG](2dim.PNG)
 
 We can calculate similarity between two vectors using dot product:e.g. Automobile and Car tend to be more similar than automobile and Soccer or automobile and football. Similarity between all word pairs is represented below: 
 
-![similar.PNG](attachment:similar.PNG)
+![similar.PNG](similar.PNG)
 
 ###  <font color='brown'>3.3) Vector Space model without distributional similarity:
 
@@ -111,7 +111,7 @@ Here we can see only one component of vector is one corresponding to the word. R
 __Problem:__ We can’t capture similarity or differences between two words with one hot encoding because most of the dimensions are zero except one for each word. Therefore when we take dot product between these two, we will get zero as the product.
 
 
-![OHE.PNG](attachment:OHE.PNG)
+![OHE.PNG](OHE.PNG)
 
 ###  <font color='brown'>3.4) Vector Space Model with Distributional similarity:
 
@@ -151,23 +151,23 @@ __Using DSM for Query Expansion:__ Given a user query, reformulate it using rela
 
 ## <font color = 'brown'> 5) Similarity Measures 
 
-![simmeasure.PNG](attachment:simmeasure.PNG)
+![simmeasure.PNG](simmeasure.PNG)
 
 
 ### <font color ='brown'>5.1) Binary Vectors
 
 5.1a)	__Dice Coefficient:__ Let X and Y denote the binary distribution vectors for words X’ and Y’.
 
-![dice.PNG](attachment:dice.PNG)
+![dice.PNG](dice.PNG)
 
-![Phone2.jpg](attachment:Phone2.jpg)
+![Phone2.jpg](Phone2.jpg)
 
 __5.1b) Jaccard Coefficient:__
 
 
 Let X and Y denote the binary distribution vector for words X’ and Y’.
 
-![p3.PNG](attachment:p3.PNG)
+![p3.PNG](p3.PNG)
 
 <font color = 'green'> <b>Jaccard and Dice are different in the sense that if intersection between two words is less , then jaccard penalizes more as compared to dice. </b> </font>
 
@@ -176,7 +176,7 @@ __5.1c) Overlap Coefficient:__
 
  It is used when we want to know if one word is completely subsumed into another, then we use overlap coffiecient.
 
-![Phone4.jpg](attachment:Phone4.jpg)
+![Phone4.jpg](Phone4.jpg)
 
 <font color ='green'><B> Jaccard coefficient penalizes for small number of shared entries, while overlap coefficient uses the concept of inclusion.  </B></font>
 
@@ -186,7 +186,7 @@ Let X and Y denote the distributional vectors for words X’ and Y’ having n-d
 X= [x1,x2,…..,xn]
 Y=[y1,y2,……, yn]
 
-![cosineeuc.PNG](attachment:cosineeuc.PNG)
+![cosineeuc.PNG](cosineeuc.PNG)
 
 The difference between Cosine and Euclidean distance is that, if the vectors are not normalized, then both cosine similarity and Euclidean distance will give different values, but if the vectors are normalized, then they will give same similarity measures.
 
@@ -194,7 +194,7 @@ The difference between Cosine and Euclidean distance is that, if the vectors are
 
 Let p and q denote the probability distributions corresponding to two distributional vectors. 
 
-![probdist.PNG](attachment:probdist.PNG)
+![probdist.PNG](probdist.PNG)
 
 ##  <font color ='brown'> 6) Relational Similarity
 
