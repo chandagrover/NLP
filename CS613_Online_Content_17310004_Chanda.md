@@ -279,4 +279,5 @@ plt.show()
 [1] Distributional semantics https://en.wikipedia.org/wiki/Distributional_semantics <br>
 [2] Pawan Goyal, Lecture slides, Speech and natural language processing (CS60057), Autumn 2016, IIT Kharagpur.<br>
 [3] https://github.com/krishnamrith12/NotebooksNLP/blob/master/8.Introduction_to_WordNet_and_Word_semantics.ipynb
+[4] https://levyomer.wordpress.com/2014/04/25/linguistic-regularities-in-sparse-and-explicit-word-representations/
 
