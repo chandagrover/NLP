@@ -1,7 +1,7 @@
 
-#```html <font color = 'purple'>Distributional  Semantics ```
+```html# <font color = 'purple'>Distributional  Semantics ```
 
-##```html <font color='brown'>1) Semantics: </font>```
+```html## <font color='brown'>1) Semantics: </font>```
 
 Semantics is the linguistic and philosophical study of meaning, in language, programming languages and formal logics.It is the study of meaning of words/symbols used in a sentence. i.e What is the relation between symbols and what do they denote.
  
