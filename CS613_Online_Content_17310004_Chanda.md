@@ -270,7 +270,7 @@ plt.show()
 ```
 
 
-![png](outputsimilarity.png)
+![outputsimilarity.png](outputsimilarity.png)
 
 
 ##  <font color ='brown'> 7)  References:
