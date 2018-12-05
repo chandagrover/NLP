@@ -124,11 +124,11 @@ _(Linguistic steps)_
 2. Select the targets and the contexts.
 
 _(Mathematical Steps:)_
-3.	Count the target-context co-occurrences
-4.	Weight the contexts (optional)
-5.	Build the distributional matrix
-6.	Reduce the matrix dimension (optional)
-7.	Compute the vector distances on the (reduced) matrix.
+3.	Count the target-context co-occurrences <br>
+4.	Weight the contexts (optional)<br>
+5.	Build the distributional matrix<br>
+6.	Reduce the matrix dimension (optional)<br>
+7.	Compute the vector distances on the (reduced) matrix.<br>
 
 
 ####  <font color='brown'>Parameter Space: 
